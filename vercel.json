@@ -1,12 +1,6 @@
 {
   "version": 2,
-  "name": "verkelcomm",
-  "functions": {
-    "api/index.js": {
-      "memory": 128,
-      "maxDuration": 60
-    }
-  },
+  "name": "verykelcomm",
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index" }
   ],
